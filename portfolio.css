@@ -1,0 +1,170 @@
+.pic{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 18px;padding: 0%;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.skill_pic {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 18px;
+    padding: 0%;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.projects_pic {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 18px;
+    padding: 0%;
+}
+
+.contact_pic {
+    height: 250px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 18px;
+    padding: 0%;
+}
+
+#heading{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    font-size: 50px;
+    padding: 5px;
+    margin: 0px;
+}
+#heading:hover{
+    color: yellow;
+}
+
+.nav li{
+    float: right;
+    margin: 5px;
+    padding: 15px;
+    list-style-type: none;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12px;
+    transition: transform 0.1s ease, translateY 0.5s ease;
+}
+
+.nav li:hover {
+    background-color: yellow;
+    transform: scale(1.1) translateY(-5px);
+}
+
+.nav li a:hover{
+    color: black;
+}
+
+.nav li a{
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav{
+    margin: 0px; padding: 0px;
+}
+
+.image{
+    margin: 30px;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid black;
+    transition: transform 0.1s ease, translateZ 0.5s ease;
+}
+.image:hover{
+    transform: scale(1.1) translateZ(-5px);
+}
+
+.main{
+    margin: -10px; padding: 0px;
+}
+
+.info{
+    float:right;
+}
+
+.name{
+    color: rgb(15, 0, 101);
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    margin: 50px; padding: 10px;
+}
+
+.personal img {
+    max-width: 50%;
+    margin-right: 25px;
+}
+
+.personal h3 {
+    flex: 1;
+    font-size: 25px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.skills {
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+}
+
+.skills img {
+    max-width: 70%;
+    margin-right: 25px;
+}
+
+.skills h3 {
+    margin-top: 50px;
+    flex: 1;
+    font-size: 25px;
+}
+
+.projects {
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+}
+
+.projects img {
+    max-width: 70%;
+    margin-right: 25px;
+}
+
+.projects h3 {
+    margin-top: 50px;
+    flex: 1;
+    font-size: 25px;
+}
+
+.Contact {
+    display: flex;
+    margin: 50px;
+    padding: 10px;
+}
+
+.Contact img {
+    max-width: 70%;
+    margin-right: 25px;
+}
+
+.Contact h3 {
+    margin-top: 50px;
+    flex: 1;
+    font-size: 25px;
+}
